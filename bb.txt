@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tachung Bakery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background-color: #fff0f5; text-align: center; }
+    header { background: linear-gradient(to right, #ff9eb5, #ff4f81); color: white; padding: 60px 20px; }
+    h1 { font-size: 40px; margin: 0; }
+    .btn { background: white; color: #ff4f81; padding: 12px 25px; border: none; border-radius: 25px; font-size: 16px; cursor: pointer; margin-top: 20px; }
+    .section { padding: 50px 20px; }
+    .menu { display: flex; flex-direction: column; gap: 20px; max-width: 400px; margin: auto; }
+    .card { background: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    footer { background: #ff4f81; color: white; padding: 20px; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Tachung Bakery</h1>
+  <p>Freshly Baked Happiness in Doimukh</p>
+  <button class="btn">Order Online</button>
+</header>
+<div class="section">
+  <h2>Our Specialties</h2>
+  <div class="menu">
+    <div class="card"><h3>Chocolate Truffle Cake</h3><p>₹700/kg</p></div>
+    <div class="card"><h3>Red Velvet Cake</h3><p>₹850/kg</p></div>
+    <div class="card"><h3>Custom Birthday Cakes</h3><p>Starting ₹1200</p></div>
+  </div>
+</div>
+<div class="section">
+  <h2>About Us</h2>
+  <p>Tachung Bakery is a premium bakery in Doimukh, serving fresh cakes, pastries, cookies and custom celebration cakes.</p>
+</div>
+<div class="section">
+  <h2>Contact Us</h2>
+  <p>📞 +91 98765 43210</p>
+  <p>📍 Doimukh, Arunachal Pradesh</p>
+</div>
+<footer>© 2026 Tachung Bakery. All rights reserved.</footer>
+</body>
+</html>
